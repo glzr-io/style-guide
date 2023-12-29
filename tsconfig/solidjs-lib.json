@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "SolidJS Library",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "lib": ["es2020", "dom"],
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "module": "ESNext"
+  }
+}

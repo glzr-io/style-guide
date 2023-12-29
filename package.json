@@ -1,0 +1,55 @@
+{
+  "name": "@glzr/style-guide",
+  "version": "0.0.0",
+  "description": "Shared configs for linting and styling tools.",
+  "homepage": "https://github.com/glzr-io/style-guide#readme",
+  "bugs": {
+    "url": "https://github.com/glzr-io/style-guide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glzr-io/style-guide.git"
+  },
+  "license": "MIT",
+  "exports": {
+    "./prettier": "./prettier/index.js",
+    "./tsconfig": "./tsconfig/base.json",
+    "./tsconfig/nestjs-app": "./tsconfig/nestjs-app.json",
+    "./tsconfig/nodejs-lib": "./tsconfig/nodejs-lib.json",
+    "./tsconfig/solidjs-app": "./tsconfig/solidjs-app.json",
+    "./tsconfig/solidjs-lib": "./tsconfig/solidjs-lib.json"
+  },
+  "files": [
+    "prettier",
+    "tsconfig"
+  ],
+  "scripts": {
+    "prettier:check": "prettier --check ."
+  },
+  "prettier": "./prettier",
+  "dependencies": {
+    "prettier-plugin-packagejson": "2.4.5"
+  },
+  "devDependencies": {
+    "prettier": "3.1.1",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0 <4",
+    "typescript": ">=5.0.0 <6"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
