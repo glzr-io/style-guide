@@ -3,6 +3,6 @@
   "display": "Node.js Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["es2020"]
+    "lib": ["es2022"]
   }
 }

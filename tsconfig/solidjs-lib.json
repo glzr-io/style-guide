@@ -3,9 +3,8 @@
   "display": "SolidJS Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["es2020", "dom"],
+    "lib": ["es2022", "dom"],
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "module": "ESNext"
+    "jsxImportSource": "solid-js"
   }
 }

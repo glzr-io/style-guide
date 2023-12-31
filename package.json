@@ -14,6 +14,7 @@
   "exports": {
     "./prettier": "./prettier/index.js",
     "./tsconfig": "./tsconfig/base.json",
+    "./tsconfig/astro-app": "./tsconfig/astro-app.json",
     "./tsconfig/nestjs-app": "./tsconfig/nestjs-app.json",
     "./tsconfig/nodejs-lib": "./tsconfig/nodejs-lib.json",
     "./tsconfig/solidjs-app": "./tsconfig/solidjs-app.json",

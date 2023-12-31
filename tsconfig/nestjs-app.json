@@ -3,10 +3,11 @@
   "display": "NestJS App",
   "extends": "./base.json",
   "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "CommonJS",
+    "moduleResolution": "NodeNext",
     "emitDecoratorMetadata": true,
-    "sourceMap": true,
     "removeComments": true,
-    "incremental": true,
     "strictPropertyInitialization": false
   }
 }

@@ -1,11 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "SolidJS App",
+  "display": "Astro App",
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["es2022", "dom"],
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "allowImportingTsExtensions": true,
     "noEmit": true
   }
 }
