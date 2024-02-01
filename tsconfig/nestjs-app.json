@@ -1,11 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "NestJS App",
+  "display": "NestJS app",
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["es2022"],
-    "module": "CommonJS",
-    "moduleResolution": "NodeNext",
+    "module": "commonjs",
+    "moduleResolution": "nodenext",
     "emitDecoratorMetadata": true,
     "removeComments": true,
     "strictPropertyInitialization": false

@@ -22,9 +22,7 @@
     "allowJs": true,
     "target": "es2022",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler"
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"]
 }

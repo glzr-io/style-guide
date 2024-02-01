@@ -1,9 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "SolidJS App",
+  "display": "SolidJS app",
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["es2022", "dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "noEmit": true

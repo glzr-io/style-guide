@@ -22,9 +22,10 @@ To use one of the TSConfig files available, add the following to `tsconfig.json`
 
 **Available configs:**
 
+- Vanilla Node.js (`@glzr/style-guide/tsconfig/vanilla-nodejs`)
+- Vanilla bundler (`@glzr/style-guide/tsconfig/vanilla-bundler`)
 - Astro app (`@glzr/style-guide/tsconfig/astro-app`)
 - NestJS app (`@glzr/style-guide/tsconfig/nestjs-app`)
-- Node.js library (`@glzr/style-guide/tsconfig/nodejs-lib`)
 - SolidJS app (`@glzr/style-guide/tsconfig/solidjs-app`)
 - SolidJS library (`@glzr/style-guide/tsconfig/solidjs-lib`)
 

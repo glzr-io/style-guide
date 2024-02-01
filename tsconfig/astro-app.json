@@ -1,9 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Astro App",
+  "display": "Astro app",
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["es2022", "dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "noEmit": true
   }

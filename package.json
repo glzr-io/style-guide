@@ -16,9 +16,10 @@
     "./tsconfig": "./tsconfig/base.json",
     "./tsconfig/astro-app": "./tsconfig/astro-app.json",
     "./tsconfig/nestjs-app": "./tsconfig/nestjs-app.json",
-    "./tsconfig/nodejs-lib": "./tsconfig/nodejs-lib.json",
     "./tsconfig/solidjs-app": "./tsconfig/solidjs-app.json",
-    "./tsconfig/solidjs-lib": "./tsconfig/solidjs-lib.json"
+    "./tsconfig/solidjs-lib": "./tsconfig/solidjs-lib.json",
+    "./tsconfig/vanilla-bundler": "./tsconfig/vanilla-bundler.json",
+    "./tsconfig/vanilla-nodejs": "./tsconfig/vanilla-nodejs.json"
   },
   "files": [
     "prettier",
