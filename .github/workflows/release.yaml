@@ -21,7 +21,6 @@ jobs:
 
       - uses: glzr-io/actions/semantic-release@main
         with:
-          is-prerelease: false
           gh-publish: true
           gh-token: ${{ secrets.GITHUB_TOKEN }}
           gh-draft-release: false
